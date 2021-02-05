@@ -19,10 +19,11 @@ std::mutex g_lock;
 std::vector<socket_ptr> clients;
 
 void workerfunc(){
+    {
     std::unique_lock<std::mutex> lock(g_lock);
-
     while(clients.empty())
         g_signal.wait(lock);
+    }
     std::cout << "i am here\n" << std::this_thread::get_id() <<'\n';
     socket_ptr sock = clients.back();
     clients.pop_back();
@@ -62,6 +63,7 @@ int main(int argc, char *argv[]) {
         socket_ptr sock(new tcp::socket(io_context));
         acceptor.accept(*sock);
         clients.push_back(sock);
+        std::cout <<"connect\n";
         g_signal.notify_one();
         //std::cout <<"connect";
     }
