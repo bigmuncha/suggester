@@ -19,6 +19,7 @@ std::mutex g_lock;
 std::vector<socket_ptr> clients;
 
 void workerfunc(){
+    for(;;){
     {
     std::unique_lock<std::mutex> lock(g_lock);
     while(clients.empty())
@@ -34,6 +35,7 @@ void workerfunc(){
     boost::asio::write(*sock,boost::asio::buffer("OMAR"));
     sock->shutdown(tcp::socket::shutdown_both);
     sock->close();
+    }
     //workerfunc();
 }
 
