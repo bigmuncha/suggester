@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(suggeter)
+project(suggester)
 
 set(SOURCE_EXE main.cpp)
 
@@ -11,7 +11,7 @@ find_package(Boost 1.75.0 REQUIRED COMPONENTS  filesystem thread)
 if(Boost_FOUND)
   include_directories(${Boost_INCLUDE_DIRS} )
 
-  add_executable(suggeter ${SOURCE_EXE})
+  add_executable(suggester ${SOURCE_EXE})
 
-  target_link_libraries(suggeter ${Boost_LIBRARIES})
+  target_link_libraries(suggester ${Boost_LIBRARIES})
 endif()
