@@ -9,26 +9,27 @@
 #include <mutex>
 #include <cstring>
 #include <memory>
+#include <functional>
 
 using boost::asio::ip::tcp;
 
 class Server{
-    public:
-        Server();
-        void workerfunc();
-        void start();
-        void accept();
+        public:
+                typedef std::shared_ptr<tcp::socket> socket_ptr;
+                typedef std::function<void ()> MyFunc;
+                Server();
+                void workerfunc();
+                void quickstart();
+                void accept();
+                void start(MyFunc const&);
 
-        typedef std::shared_ptr<tcp::socket> socket_ptr;
-
-
-    private:
-        std::condition_variable g_signal;
-        bool g_done;
-        std::mutex g_lock;
-        std::vector<socket_ptr> clients;
-        boost::asio::io_context io_context;
-        std::vector<std::thread> pool_th;
+        protected:
+                std::condition_variable g_signal;
+                bool g_done;
+                std::mutex g_lock;
+                std::vector<socket_ptr> clients;
+                boost::asio::io_context io_context;
+                std::vector<std::thread> pool_th;
 
 };
 

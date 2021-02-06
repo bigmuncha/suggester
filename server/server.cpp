@@ -4,13 +4,16 @@ Server::Server(){
 
 }
 
-void Server::start(){
+void Server::quickstart(){
+    this->start([this](){this->workerfunc();});
+}
+void Server::start(MyFunc const & myfunc){
 
     for(int i=0;i < 5 ; i++){
         pool_th.push_back(std::thread(
-                              [this]()
+                              [this, myfunc]()
                               {
-                                  workerfunc();
+                                  myfunc();
                               }
                           ));
     }
@@ -41,14 +44,16 @@ void Server::accept(){
 
 void Server::workerfunc(){
     for(;;){
+        //waiting untill client exist in set
+        socket_ptr sock;
         {
             std::unique_lock<std::mutex> lock(g_lock);
             while(clients.empty())
                 g_signal.wait(lock);
+            std::cout << "i am here\n" << std::this_thread::get_id() <<'\n';
+            sock = clients.back();
+            clients.pop_back();
         }
-        std::cout << "i am here\n" << std::this_thread::get_id() <<'\n';
-        socket_ptr sock = clients.back();
-        clients.pop_back();
         char buf[128];
         std::memset(buf, 0, 128);
         sock->read_some(boost::asio::buffer(buf));

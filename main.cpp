@@ -1,12 +1,12 @@
 #include <iostream>
 
-#include "server.h"
+#include "server/server.h"
 
 
 int main(int argc, char *argv[]) {
 
     Server serv;
-    serv.start();
+    serv.quickstart();
     serv.accept();
 
     return 0;
