@@ -19,7 +19,8 @@ PrimeServ::PrimeServ()
         file.getline(temp, 1024, '\n');
         str_count++;
     }
-
+    file.clear();
+    file.seekg(0, file.beg);
     std::cout <<str_count << '\n';
 
 }
@@ -51,7 +52,27 @@ void PrimeServ::newWorker(){
 
 std::string PrimeServ::resultStr(std::string request){
     int len = request.length();
-    return request;
+    std::cout <<len << '\n';
+    char buf[len];
+    std::string result;
+    std::cout <<file.beg << '\n';
+    file.seekg(0, file.beg);
+
+    char stringa[1024];
+
+    for(int i =0; i < str_count; i++){
+
+        file.get(buf, len);
+        std::cout <<buf;
+        if (buf == request){
+            file.getline(stringa,1024,'\n');
+            std::cout <<stringa << '\n';
+            result = result + stringa;
+        }
+    }
+
+    std::cout << result;
+    return result;
 }
 
 void PrimeServ::quickstart(){
