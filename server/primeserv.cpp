@@ -2,13 +2,26 @@
 
 
 PrimeServ::PrimeServ()
+    :str_count(0)
 {
+
     this->file.open("../stringset/data.txt");
 
     if(!file.is_open()){
         std::cerr << "file";
         exit(1);
     }
+
+
+
+    char temp[1024];
+    while(!file.eof()){
+        file.getline(temp, 1024, '\n');
+        str_count++;
+    }
+
+    std::cout <<str_count << '\n';
+
 }
 
 void PrimeServ::newWorker(){
@@ -37,5 +50,10 @@ void PrimeServ::newWorker(){
 }
 
 std::string PrimeServ::resultStr(std::string request){
+    int len = request.length();
+    return request;
+}
 
+void PrimeServ::quickstart(){
+    this->start([this](){this->newWorker();});
 }

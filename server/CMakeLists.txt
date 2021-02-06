@@ -2,13 +2,17 @@ cmake_minimum_required(VERSION 3.10)
 
 project(server)
 
-set(SOURCE_LIB server.cpp)
+set(SOURCE1_LIB server.cpp)
+set(SOURCE2_LIB primeserv.cpp)
 
 find_package(Boost 1.75.0 REQUIRED COMPONENTS  filesystem thread)
 if(Boost_FOUND)
 
   include_directories(${Boost_INCLUDE_DIRS} )
 
-  add_library(server STATIC ${SOURCE_LIB})
+  add_library(server STATIC ${SOURCE1_LIB})
   target_link_libraries(server ${Boost_LIBRARIES})
+
+  add_library(primeserv STATIC ${SOURCE2_LIB})
+  target_link_libraries(primeserv ${Boost_LIBRARIES})
 endif()

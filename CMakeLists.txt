@@ -10,4 +10,4 @@ add_executable(suggester ${SOURCE_EXE})
 
 add_subdirectory(server)
 
-target_link_libraries(suggester server)
+target_link_libraries(suggester primeserv server)
