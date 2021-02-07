@@ -4,7 +4,7 @@ import random
 my_file = open("some.txt", "r")
 liststr = my_file.readlines()
 for i in range(0,len(liststr)):
-    tempstr = random.randint(0,4294967296)
+    tempstr = random.randint(0,2147483648)
     liststr[i] =  liststr[i][0:len(liststr[i])-1] +\
         ' ' + str(tempstr)  + '\n'
     print(liststr[i])

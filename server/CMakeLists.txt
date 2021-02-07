@@ -5,7 +5,7 @@ project(server)
 set(SOURCE1_LIB server.cpp)
 set(SOURCE2_LIB primeserv.cpp)
 
-find_package(Boost 1.75.0 REQUIRED COMPONENTS  filesystem thread)
+find_package(Boost  REQUIRED COMPONENTS  filesystem thread regex)
 if(Boost_FOUND)
 
   include_directories(${Boost_INCLUDE_DIRS} )

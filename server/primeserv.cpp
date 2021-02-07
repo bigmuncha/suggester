@@ -66,6 +66,9 @@ void PrimeServ::newWorker(){
 
 std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
 
+    boost::regex re("^(.+)\\s(\\d+)$");
+    boost::smatch m;
+
     if(!file.is_open()){
         std::cerr << "file";
         exit(1);
@@ -78,6 +81,8 @@ std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
     //std::cout <<file.beg << '\n';
     file.seekg(0);
     file.clear();
+    std::map<int,std::string> Store;
+
     char stringa[1024];
     std::cout <<"here\n";
     for(int i=0; i <str_count; i++){
@@ -85,9 +90,19 @@ std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
         if(buf.substr(0,len-1) == request.substr(0,len-1)){
             //std::cout <<"|"<< buf.substr(0,len-1)<< "| "
               //        <<"|"<< request.substr(0,len-1) <<"|\n";
-
-            result = result + buf+'\n' ;
+            if(regex_match(buf,m,re)){
+                int number = std::stoi(m[2]);
+                Store[number] = m[1];
+//                std::cout <<"Match|" <<m[0] << "|\n";
+            }else{
+                std::cerr <<"NO matches\n";
+            }
+            //result = result + buf+'\n' ;
         }
+    }
+    for(const auto &a:Store){
+        std::cout << a.second<<" " << a.first <<"\n";
+        result = result + a.second + '\n';
     }
 
     /*for(int i =0; i < str_count; i++){
@@ -102,7 +117,7 @@ std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
         }
     }*/
 
-    std::cout <<"RESULT IS: "<< result <<'\n';
+
     return result;
 }
 

@@ -5,6 +5,8 @@
 #include <fstream>
 #include <iterator>
 #include <algorithm>
+#include <boost/regex.hpp>
+#include <map>
 
 class PrimeServ
     :public Server
