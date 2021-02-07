@@ -7,7 +7,8 @@ workerlist =[]
 
 master = os.getpid()
 
-questlist = ["And\n","For\n","My\n","To\n", "That\n"]
+questlist1 = ["And\n","For\n","My\n","To\n", "That\n"]
+questlist2 = ["How\n","It\n","Is\n","From\n", "What\n"]
 
 for i in range(0,5):
     if (master == os.getpid()):
@@ -15,7 +16,9 @@ for i in range(0,5):
         if(pid == 0):
             code = subprocess.Popen(["netcat", "127.0.0.1","4000"],
                             stdin=subprocess.PIPE).stdin
-            code.write(bytes(questlist[i], 'ascii'))
+            code.write(bytes(questlist1[i], 'ascii'))
+            #time.sleep(1)
+           # code.write(bytes(questlist2[i], 'ascii'))
             #code.write(bytes("\n",'ascii'))
             #time.sleep(1)
         else:
