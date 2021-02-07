@@ -83,8 +83,8 @@ std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
     for(int i=0; i <str_count; i++){
         getline(file,buf,'\n');
         if(buf.substr(0,len-1) == request.substr(0,len-1)){
-            std::cout <<"|"<< buf.substr(0,len-1)<< "| "
-                      <<"|"<< request.substr(0,len-1) <<"|\n";
+            //std::cout <<"|"<< buf.substr(0,len-1)<< "| "
+              //        <<"|"<< request.substr(0,len-1) <<"|\n";
 
             result = result + buf+'\n' ;
         }
