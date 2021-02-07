@@ -5,7 +5,8 @@ PrimeServ::PrimeServ()
     :str_count(0)
 {
 
-    this->file.open("../stringset/data.txt");
+    std::ifstream file;
+    file.open("../stringset/data.txt");
 
     if(!file.is_open()){
         std::cerr << "file";
@@ -19,13 +20,23 @@ PrimeServ::PrimeServ()
         file.getline(temp, 1024, '\n');
         str_count++;
     }
-    file.clear();
-    file.seekg(0, file.beg);
+    //file.clear();
+    //file.seekg(0, file.beg);
     std::cout <<str_count << '\n';
+    file.close();
 
 }
 
 void PrimeServ::newWorker(){
+
+    std::ifstream file;
+
+    file.open("../stringset/data.txt");
+
+    if(!file.is_open()){
+        std::cerr << "file";
+        exit(1);
+    }
     for(;;){
         socket_ptr sock;
         {
@@ -42,36 +53,56 @@ void PrimeServ::newWorker(){
         sock->read_some(boost::asio::buffer(buf));
 
         std::cout <<buf;
-        std::string result = resultStr(buf);
+        file.clear();
+        file.seekg(0);
+        std::string result = resultStr(file,buf);
 
         boost::asio::write(*sock,boost::asio::buffer(result));
         sock->shutdown(tcp::socket::shutdown_both);
         sock->close();
     }
+    file.close();
 }
 
-std::string PrimeServ::resultStr(std::string request){
+std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
+
+    if(!file.is_open()){
+        std::cerr << "file";
+        exit(1);
+    }
+
     int len = request.length();
-    std::cout <<len << '\n';
-    char buf[len];
+    std::cout <<len-1 << '\n';
+    std::string buf;
     std::string result;
-    std::cout <<file.beg << '\n';
-    file.seekg(0, file.beg);
-
+    //std::cout <<file.beg << '\n';
+    file.seekg(0);
+    file.clear();
     char stringa[1024];
+    std::cout <<"here\n";
+    for(int i=0; i <str_count; i++){
+        getline(file,buf,'\n');
+        if(buf.substr(0,len-1) == request.substr(0,len-1)){
+            std::cout <<"|"<< buf.substr(0,len-1)<< "| "
+                      <<"|"<< request.substr(0,len-1) <<"|\n";
 
-    for(int i =0; i < str_count; i++){
+            result = result + buf+'\n' ;
+        }
+    }
 
-        file.get(buf, len);
+    /*for(int i =0; i < str_count; i++){
+        //std::cout <<"here\n";
+        std::memset(buf,0,len);
+        file.getline(buf, len);
         std::cout <<buf;
-        if (buf == request){
+        if (buf == request.c_str()){
             file.getline(stringa,1024,'\n');
             std::cout <<stringa << '\n';
             result = result + stringa;
         }
-    }
+    }*/
 
-    std::cout << result;
+    std::cout <<"RESULT IS: "<< result <<'\n';
     return result;
 }
 

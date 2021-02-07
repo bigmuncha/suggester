@@ -13,9 +13,9 @@ class PrimeServ
         PrimeServ();
         void quickstart();
         void newWorker();
-        std::string resultStr(std::string);
+        std::string resultStr(std::ifstream&,std::string);
     private:
-        std::ifstream file;
+        //std::ifstream file;
         int str_count;
 
 };
