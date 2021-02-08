@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <boost/regex.hpp>
 #include <map>
-
+#include <unordered_map>
 class PrimeServ
     :public Server
 {
@@ -17,7 +17,7 @@ class PrimeServ
         void newWorker();
         std::string resultStr(std::ifstream&,std::string);
     private:
-        //std::ifstream file;
+        std::unordered_map<std::string, std::string> Cache;
         int str_count;
 
 };

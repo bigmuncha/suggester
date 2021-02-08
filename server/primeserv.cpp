@@ -75,7 +75,9 @@ std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
     }
 
     int len = request.length();
-    std::cout <<len-1 << '\n';
+    len--;
+    std::string real_request = request.substr(0,len);
+    std::cout <<len << '\n';
     std::string buf;
     std::string result;
     //std::cout <<file.beg << '\n';
@@ -85,39 +87,29 @@ std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
 
     char stringa[1024];
     std::cout <<"here\n";
-    for(int i=0; i <str_count; i++){
-        getline(file,buf,'\n');
-        if(buf.substr(0,len-1) == request.substr(0,len-1)){
-            //std::cout <<"|"<< buf.substr(0,len-1)<< "| "
-              //        <<"|"<< request.substr(0,len-1) <<"|\n";
-            if(regex_match(buf,m,re)){
-                int number = std::stoi(m[2]);
-                Store[number] = m[1];
-//                std::cout <<"Match|" <<m[0] << "|\n";
-            }else{
-                std::cerr <<"NO matches\n";
+
+    if(Cache.find(real_request) != Cache.end()){
+        result = Cache[real_request];
+        std::cout <<"Cache exist\n";
+    }else{
+        std::cout <<"Cannot find cache\n";
+        for(int i=0; i <str_count; i++){
+            getline(file,buf,'\n');
+            if(buf.substr(0,len) == real_request){
+                if(regex_match(buf,m,re)){
+                    int number = std::stoi(m[2]);
+                    Store[number] = m[1];
+                }else{
+                    std::cerr <<"NO matches\n";
+                }
             }
-            //result = result + buf+'\n' ;
         }
-    }
-    for(const auto &a:Store){
-        std::cout << a.second << " " << a.first <<"\n";
-        result = a.second  + '\n'+ result ;
-    }
-
-    /*for(int i =0; i < str_count; i++){
-        //std::cout <<"here\n";
-        std::memset(buf,0,len);
-        file.getline(buf, len);
-        std::cout <<buf;
-        if (buf == request.c_str()){
-            file.getline(stringa,1024,'\n');
-            std::cout <<stringa << '\n';
-            result = result + stringa;
+        for(const auto &a:Store){
+            std::cout << a.second << " " << a.first <<"\n";
+            result = a.second  + '\n'+ result ;
         }
-    }*/
-
-
+        Cache[real_request] = result;
+    }
     return result;
 }
 
