@@ -102,7 +102,7 @@ std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
     }
     for(const auto &a:Store){
         std::cout << a.second << " " << a.first <<"\n";
-        result = result + a.second + '\n';
+        result = a.second  + '\n'+ result ;
     }
 
     /*for(int i =0; i < str_count; i++){
