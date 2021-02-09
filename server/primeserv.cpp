@@ -2,7 +2,7 @@
 
 
 PrimeServ::PrimeServ()
-    :str_count(0)
+    :str_count(0),Cache()
 {
 
     std::ifstream file;
@@ -13,8 +13,6 @@ PrimeServ::PrimeServ()
         exit(1);
     }
 
-
-
     char temp[1024];
     while(!file.eof()){
         file.getline(temp, 1024, '\n');
@@ -22,6 +20,26 @@ PrimeServ::PrimeServ()
     }
     //file.clear();
     //file.seekg(0, file.beg);
+    std::cout <<str_count << '\n';
+    file.close();
+}
+
+PrimeServ::PrimeServ(int cache_size)
+    :str_count(0),Cache(cache_size)
+{
+    std::ifstream file;
+    file.open("../stringset/data.txt");
+
+    if(!file.is_open()){
+        std::cerr << "file";
+        exit(1);
+    }
+
+    char temp[1024];
+    while(!file.eof()){
+        file.getline(temp, 1024, '\n');
+        str_count++;
+    }
     std::cout <<str_count << '\n';
     file.close();
 
@@ -88,8 +106,8 @@ std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
     char stringa[1024];
     std::cout <<"here\n";
 
-    if(Cache.find(real_request) != Cache.end()){
-        result = Cache[real_request];
+    if(Cache.find(real_request)){
+        result = Cache.get(real_request);
         std::cout <<"Cache exist\n";
     }else{
         std::cout <<"Cannot find cache\n";
@@ -108,7 +126,7 @@ std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
             std::cout << a.second << " " << a.first <<"\n";
             result = a.second  + '\n'+ result ;
         }
-        Cache[real_request] = result;
+        Cache.set(real_request, result);
     }
     return result;
 }

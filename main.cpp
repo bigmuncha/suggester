@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]) {
 
-    PrimeServ serv;
+    PrimeServ serv(2000);
     serv.quickstart();
     serv.accept();
 

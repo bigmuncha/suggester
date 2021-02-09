@@ -8,16 +8,19 @@
 #include <boost/regex.hpp>
 #include <map>
 #include <unordered_map>
+#include "../cache/self_cache.h"
+
 class PrimeServ
     :public Server
 {
     public:
         PrimeServ();
+        PrimeServ(int/*add Cache size*/);
         void quickstart();
         void newWorker();
         std::string resultStr(std::ifstream&,std::string);
     private:
-        std::unordered_map<std::string, std::string> Cache;
+        MyCache Cache;
         int str_count;
 
 };

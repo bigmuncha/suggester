@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(server)
+project(suggester)
 
 set(SOURCE1_LIB server.cpp)
 set(SOURCE2_LIB primeserv.cpp)
