@@ -1,198 +1,406 @@
-Once upon a midnight dreary, 489803148
-While I pondered, weak and weary, 1803532540
-Over many a quaint and curious 1297881414
-Volume of forgotten lore— 374368749
-While I nodded, nearly napping, 1587919103
-Suddenly there came a tapping, 273491148
-As of some one gently rapping, 1875315780
-Rapping at my chamber door. 715163158
-"'Tis some visitor," I muttered, 851633788
-"Tapping at my chamber door 748655845
-Only this, and nothing more." 1643191599
-Ah, distinctly I remember, 26667334
-It was in the bleak December, 362026652
-And each separate dying ember 653993792
-Wrought its ghost upon the floor. 959422847
-Eagerly I wished the morrow; 315645539
-Vainly I had sought to borrow 75561284
-From my books surcease of sorrow 1738264766
-Sorrow for the lost Lenore— 405855789
-For the rare and radiant maiden 24314758
-Whom the angels name Lenore— 2059446672
-Nameless here for evermore. 593038419
-And the silken, sad, uncertain 2125744016
-Rustling of each purple curtain 886265144
-Thrilled me,—filled me with fantastic 1163770519
-Terrors, never felt before; 788269444
-So that now, to still the beating 2069620755
-Of my heart, I stood repeating, 118849447
-" 'Tis some visitor entreating 1852336376
-Entrance at my chamber door 100044781
-Some late visitor entreating 1798279054
-Entrance at my chamber door; 718882137
-This it is, and nothing more." 1252405977
- Presently my soul grew stronger; 45171384
-Hesitating then no longer, 120450735
-"Sir," said I, "or Madam, truly 431657289
-Your forgiveness I implore; 727872216
-But the fact is I was napping, 13179132
-And so gently you came rapping, 174355426
-And so faintly you came tapping, 460171026
-Tapping at my chamber door, 1493082806
-That I scarce was sure I heard you."— 1709043514
-Here I opened wide the door; 1091866320
-Darkness there, and nothing more. 1341973766
-Deep into that darkness peering, 822658099
-Long I stood there, wondering, fearing, 241835120
-Doubting, dreaming dreams no mortals 1542260889
-Ever dared to dream before; 373302470
-But the silence was unbroken, 1569285836
-And the stillness gave no token, 451327432
-And the only word there spoken 271002885
-Was the whispered word, "Lenore!" 897844946
-This I whispered, and an echo 1972007983
-Murmured back the word, "Lenore!" 1855776978
-Merely this, and nothing more. 576324883
-Back into the chamber turning, 1375928625
-All my soul within me burning, 314778412
-Soon again I heard a tapping, 926042347
-Something louder than before. 7358822
-"Surely," said I, "surely, that is 150733633
-Something at my window lattice; 95128449
-Let me see then, what thereat is, 2119263222
-And this mystery explore— 820759803
-Let my heart be still a moment, 728234201
-And this mystery explore;— 2041839464
-'Tis the wind, and nothing more." 267068299
-Open here I flung the shutter. 475107058
-When, with many a flirt and flutter, 1823552775
-In there stepped a stately Raven 540650982
-Of the saintly days of yore; 1027752403
-Not the least obeisance made he; 600832882
-Not a minute stopped or stayed he, 356726415
-But, with mien of lord or lady, 1744537243
-Perched above my chamber door— 290899642
-Perched upon a bust of Pallas 693978499
-Just above my chamber door— 1841207696
-Perched, and sat, and nothing more. 1249094807
-Then this ebony bird beguiling 1509605969
-My sad fancy into smiling, 228285790
-By the grave and stern decorum 979290233
-Of the countenance it wore, 1730546358
-"Though thy crest be shorn and shaven, 446155848
-Thou," I said, "art sure no craven, 6009597
-Ghastly, grim, and ancient Raven, 64108307
-Wandering from the nightly shore, 191239151
-Tell me what thy lordly name is 1018232990
-On the night's Plutonian shore!" 164464459
-Quoth the Raven, "Nevermore." 392678255
-Much I marveled this ungainly 290870311
-Fowl to hear discourse so plainly, 790311406
-Though its answer little meaning— 2081992712
-Little relevancy bore; 1350669844
-For we can not help agreeing 688160352
-That no living human being 893135019
-Ever yet was blest with seeing 910321655
-Bird above his chamber door— 283635123
-Bird or beast upon the sculptured 655252321
-Bust above his chamber door, 1620092414
-With such name as "Nevermore." 1943756819
-But the Raven, sitting lonely 2146943289
-On that placid bust, spoke only 1876104156
-That one word, as if his soul in 1435755855
-That one word he did outpour. 33980260
-Nothing farther then he uttered, 1278744838
-Not a feather then he fluttered, 879489467
-Till I scarcely more than muttered, 642609998
-"Other friends have flown before— 673784178
-On the morrow he will leave me, 1165708207
-As my Hopes have flown before." 1544898005
-Then the bird said, "Nevermore." 103371936
-Startled at the stillness broken 612444685
-By reply so aptly spoken, 491774135
-"Doubtless," said I, "what it utters 2095830395
-Is its only stock and store, 978881046
-Caught from some unhappy master 685352294
-Whom unmerciful Disaster 1238618292
-Followed fast and followed faster 2074372542
-Till his songs one burden bore— 1899062542
-Till the dirges of his Hope that 1214934952
-Melancholy burden bore 1768578719
-Of 'Never—nevermore.' " 57475833
-But the Raven still beguiling 636576164
-All my sad soul into smiling, 965119713
-Straight I wheeled a cushioned seat in 1785058784
-Front of bird, and bust, and door; 286979733
-Then, upon the velvet sinking, 2004939727
-I betook myself to linking 626450821
-Fancy unto fancy, thinking 1097356170
-What this ominous bird of yore— 1579662660
-What this grim, ungainly, ghastly, 1911482852
-Gaunt, and ominous bird of yore 1231019555
-Meant in croaking "Nevermore." 1722450139
-This I sat engaged in guessing, 1818722951
-But no syllable expressing 996348338
-To the fowl whose fiery eyes now 349157787
-Burned into my bosom's core; 1386425531
-This and more I sat divining, 1633849801
-With my head at ease reclining 1469811553
-On the cushion's velvet lining 1269183256
-That the lamplight gloated o'er, 885900156
-But whose velvet violet lining, 2085070301
-With the lamplight gloating o'er 878856227
-She shall press, ah, nevermore! 908653334
-Then, methought, the air grew denser, 940007947
-Perfumed from an unseen censer 1487560052
-Swung by Seraphim, whose footfalls 1746088446
-Tinkled on the tufted floor. 1014830451
-"Wretch," I cried, "thy God hath lent thee— 1025657756
-By these angels he hath sent thee 623953095
-Respite—respite and nepenthe[1] 411779446
-From thy memories of Lenore! 589647511
-Quaff, oh quaff this kind nepenthe, 689337855
-And forget this lost Lenore!" 1451965227
-Quoth the Raven, "Nevermore." 2060008541
-"Prophet!" said I, "thing of evil!— 1843543553
-Prophet still, if bird or devil!— 615614361
-Whether Tempter sent, or whether 986927467
-Tempest tossed thee here ashore, 1077265931
-Desolate, yet all undaunted, 2076684060
-On this desert land enchanted— 810641585
-On this home by Horror haunted— 2017253926
-Tell me truly, I implore— 88120852
-Is there—is there balm in Gilead? 948850079
-Tell me—tell me, I implore!" 721061489
-Quoth the Raven, "Nevermore." 121510942
-"Prophet!" said I, "thing of evil,— 1016435722
-Prophet still, if bird or devil!— 28319623
-By that heaven that bends above us, 412031169
-By that God we both adore, 2145053001
-Tell this soul with sorrow laden, 229324218
-If, within the distant Aidenn, 969128883
-It shall clasp a sainted maiden 720571351
-Whom the angels name Lenore— 2124914529
-Clasp a rare and radiant maiden, 1665690593
-Whom the angels name Lenore." 891363494
-Quoth the Raven, "Nevermore." 215005756
-"Be that word our sign of parting, 1466891262
-Bird or fiend," I shrieked, upstarting; 367367487
-"Get thee back into the tempest 1033278711
-And the night's Plutonian shore! 1598066926
-Leave no black plume as a token 643715234
-Of that lie thy soul hath spoken! 951001488
-Leave my loneliness unbroken!— 866265646
-Quit the bust above my door! 1364225116
-Take thy beak from out my heart, and 2040647769
-Take thy form from off my door!" 895921445
-Quoth the Raven, "Nevermore." 1671387185
-And the Raven, never flitting, 1083542515
-Still is sitting, still is sitting 2035659006
-On the pallid bust of Pallas 1692946565
-Just above my chamber door; 820865191
-And his eyes have all the seeming 1896282163
-Of a demon's that is dreaming, 387017683
-And the lamplight o'er him streaming 245409341
-Throws his shadow on the floor; 1322353659
-And my soul from out that shadow, 375621334
-That lies floating on the floor, 1172120269
-Shall be lifted—nevermore! 526706718
+Once upon a midnight dreary, 1292221739
+While I pondered, weak and weary, 904378062
+Over many a quaint and curious 1211707156
+Volume of forgotten lore— 1738513932
+While I nodded, nearly napping, 1725503902
+Suddenly there came a tapping, 1405729294
+As of some one gently rapping, 1503849950
+Rapping at my chamber door. 1339058398
+"'Tis some visitor," I muttered, 191702035
+"Tapping at my chamber door 644614224
+Only this, and nothing more." 1793336433
+Ah, distinctly I remember, 784913516
+It was in the bleak December, 871552268
+And each separate dying ember 1427920540
+Wrought its ghost upon the floor. 1578867555
+Eagerly I wished the morrow; 1289717391
+Vainly I had sought to borrow 727998001
+From my books surcease of sorrow 1846592574
+Sorrow for the lost Lenore— 2091971516
+For the rare and radiant maiden 1949036261
+Whom the angels name Lenore— 1422852818
+Nameless here for evermore. 1329325733
+And the silken, sad, uncertain 622803878
+Rustling of each purple curtain 336761424
+Thrilled me,—filled me with fantastic 1821306456
+Terrors, never felt before; 180668431
+So that now, to still the beating 826265576
+Of my heart, I stood repeating, 1891367665
+" 'Tis some visitor entreating 52614210
+Entrance at my chamber door 3885535
+Some late visitor entreating 1139309236
+Entrance at my chamber door; 1576097143
+This it is, and nothing more." 639962867
+ Presently my soul grew stronger; 1496437690
+Hesitating then no longer, 116673976
+"Sir," said I, "or Madam, truly 926425329
+Your forgiveness I implore; 274404337
+But the fact is I was napping, 146404230
+And so gently you came rapping, 1171620309
+And so faintly you came tapping, 1390367585
+Tapping at my chamber door, 1209946542
+That I scarce was sure I heard you."— 78429817
+Here I opened wide the door; 343363407
+Darkness there, and nothing more. 161288571
+Deep into that darkness peering, 1300771474
+Long I stood there, wondering, fearing, 1932894818
+Doubting, dreaming dreams no mortals 2024658304
+Ever dared to dream before; 1365815399
+But the silence was unbroken, 1220011784
+And the stillness gave no token, 681470069
+And the only word there spoken 1483514727
+Was the whispered word, "Lenore!" 844902016
+This I whispered, and an echo 1803725474
+Murmured back the word, "Lenore!" 1486884476
+Merely this, and nothing more. 965823340
+Back into the chamber turning, 749872447
+All my soul within me burning, 1687953200
+Soon again I heard a tapping, 1660426031
+Something louder than before. 317242400
+"Surely," said I, "surely, that is 1192922662
+Something at my window lattice; 997331802
+Let me see then, what thereat is, 1046641468
+And this mystery explore— 285093134
+Let my heart be still a moment, 896274928
+And this mystery explore;— 1946713828
+'Tis the wind, and nothing more." 1846451971
+Open here I flung the shutter. 1695332199
+When, with many a flirt and flutter, 1903539106
+In there stepped a stately Raven 390056428
+Of the saintly days of yore; 1504261705
+Not the least obeisance made he; 345824209
+Not a minute stopped or stayed he, 1727320453
+But, with mien of lord or lady, 1069595419
+Perched above my chamber door— 589342063
+Perched upon a bust of Pallas 648900811
+Just above my chamber door— 1720310773
+Perched, and sat, and nothing more. 219018308
+Then this ebony bird beguiling 1088540687
+My sad fancy into smiling, 1275735835
+By the grave and stern decorum 862407706
+Of the countenance it wore, 2060019477
+"Though thy crest be shorn and shaven, 526087865
+Thou," I said, "art sure no craven, 1991323991
+Ghastly, grim, and ancient Raven, 244791081
+Wandering from the nightly shore, 1562275917
+Tell me what thy lordly name is 1669230455
+On the night's Plutonian shore!" 1241674034
+Quoth the Raven, "Nevermore." 268151681
+Much I marveled this ungainly 2086784589
+Fowl to hear discourse so plainly, 2043628566
+Though its answer little meaning— 775363356
+Little relevancy bore; 1558775907
+For we can not help agreeing 2032449079
+That no living human being 191605172
+Ever yet was blest with seeing 2013452558
+Bird above his chamber door— 111963496
+Bird or beast upon the sculptured 1158924909
+Bust above his chamber door, 1988299751
+With such name as "Nevermore." 765224724
+But the Raven, sitting lonely 399596140
+On that placid bust, spoke only 2131720415
+That one word, as if his soul in 510286057
+That one word he did outpour. 168239853
+Nothing farther then he uttered, 1497445023
+Not a feather then he fluttered, 1168977673
+Till I scarcely more than muttered, 95592016
+"Other friends have flown before— 1819572228
+On the morrow he will leave me, 874291411
+As my Hopes have flown before." 377751150
+Then the bird said, "Nevermore." 1452908843
+Startled at the stillness broken 753295026
+By reply so aptly spoken, 1770802139
+"Doubtless," said I, "what it utters 599434404
+Is its only stock and store, 1063736886
+Caught from some unhappy master 1644576488
+Whom unmerciful Disaster 524676195
+Followed fast and followed faster 1942539885
+Till his songs one burden bore— 38698919
+Till the dirges of his Hope that 1101905601
+Melancholy burden bore 65260803
+Of 'Never—nevermore.' " 1663073497
+But the Raven still beguiling 140871526
+All my sad soul into smiling, 655859640
+Straight I wheeled a cushioned seat in 979177354
+Front of bird, and bust, and door; 1758960884
+Then, upon the velvet sinking, 139280801
+I betook myself to linking 1294807004
+Fancy unto fancy, thinking 1459748972
+What this ominous bird of yore— 1324575556
+What this grim, ungainly, ghastly, 1824796368
+Gaunt, and ominous bird of yore 1225994664
+Meant in croaking "Nevermore." 945260718
+This I sat engaged in guessing, 603841777
+But no syllable expressing 1692880973
+To the fowl whose fiery eyes now 620534509
+Burned into my bosom's core; 1322008939
+This and more I sat divining, 164719553
+With my head at ease reclining 1615705320
+On the cushion's velvet lining 214238818
+That the lamplight gloated o'er, 795601692
+But whose velvet violet lining, 1344918058
+With the lamplight gloating o'er 766586785
+She shall press, ah, nevermore! 785750636
+Then, methought, the air grew denser, 1625301468
+Perfumed from an unseen censer 1970360207
+Swung by Seraphim, whose footfalls 381242476
+Tinkled on the tufted floor. 175241881
+"Wretch," I cried, "thy God hath lent thee— 1486147327
+By these angels he hath sent thee 2010746615
+Respite—respite and nepenthe[1] 264458505
+From thy memories of Lenore! 276439323
+Quaff, oh quaff this kind nepenthe, 1951377705
+And forget this lost Lenore!" 1579575708
+Quoth the Raven, "Nevermore." 345746668
+"Prophet!" said I, "thing of evil!— 1974346819
+Prophet still, if bird or devil!— 742432243
+Whether Tempter sent, or whether 1524441174
+Tempest tossed thee here ashore, 1956212792
+Desolate, yet all undaunted, 1199767498
+On this desert land enchanted— 1776227080
+On this home by Horror haunted— 1533463111
+Tell me truly, I implore— 506800495
+Is there—is there balm in Gilead? 859358038
+Tell me—tell me, I implore!" 1725037900
+Quoth the Raven, "Nevermore." 1538976254
+"Prophet!" said I, "thing of evil,— 630690384
+Prophet still, if bird or devil!— 1412548434
+By that heaven that bends above us, 234787694
+By that God we both adore, 1015401339
+Tell this soul with sorrow laden, 606339981
+If, within the distant Aidenn, 560709981
+It shall clasp a sainted maiden 14370979
+Whom the angels name Lenore— 1432076610
+Clasp a rare and radiant maiden, 1170721082
+Whom the angels name Lenore." 245966841
+Quoth the Raven, "Nevermore." 1811030726
+"Be that word our sign of parting, 18189615
+Bird or fiend," I shrieked, upstarting; 907970281
+"Get thee back into the tempest 823942678
+And the night's Plutonian shore! 840566848
+Leave no black plume as a token 2012885412
+Of that lie thy soul hath spoken! 1505641559
+Leave my loneliness unbroken!— 1775591767
+Quit the bust above my door! 88866731
+Take thy beak from out my heart, and 594076848
+Take thy form from off my door!" 1508184705
+Quoth the Raven, "Nevermore." 1151833793
+And the Raven, never flitting, 1487649027
+Still is sitting, still is sitting 2088298293
+On the pallid bust of Pallas 1358037027
+Just above my chamber door; 2099160862
+And his eyes have all the seeming 636322581
+Of a demon's that is dreaming, 1577969991
+And the lamplight o'er him streaming 1879429290
+Throws his shadow on the floor; 1095701332
+And my soul from out that shadow, 1880837017
+That lies floating on the floor, 66864247
+Shall be lifted—nevermore! 958593992
+Two roads diverged in a yellow wood, 480529004
+And sorry I could not travel both 1162305705
+And be one traveler, long I stood 1913051086
+And looked down one as far as I could 596172942
+To where it bent in the undergrowth. 1288261147
+Then took the other, as just as fair, 1077125551
+And having perhaps the better claim, 337272121
+Because it was grassy and wanted wear; 1084318347
+Though as for that the passing there 1348825502
+Had worn them really about the same. 89527719
+And both that morning equally lay 1734753785
+In leaves no step had trodden black. 1181271484
+Oh, I kept the first for another day! 1740247717
+Yet knowing how way leads on to way, 618500175
+I doubted if I should ever come back. 1937975302
+I shall be telling this with a sigh 388920736
+Somewhere ages and ages hence: 1214040382
+Two roads diverged in a wood, and I— 617251447
+I took the one less traveled by, 1685337047
+And that has made all the difference. 46911371
+If you can keep your head when all about you 330003444
+Are losing theirs and blaming it on you, 159853581
+If you can trust yourself when all men doubt you, 1210475367
+But make allowance for their doubting too; 288039466
+If you can wait and not be tired by waiting, 305664369
+Or being lied about, don’t deal in lies, 284015728
+Or being hated don’t give way to hating, 785377300
+And yet don’t look too good, nor talk too wise: 663009787
+If you can dream-and not make dreams your master; 57914265
+If you can think-and not make thoughts your aim, 602245665
+If you can meet with Triumph and Disaster 1846659661
+And treat those two impostors just the same; 1719202456
+If you can bear to hear the truth you’ve spoken 406792039
+Twisted by knaves to make a trap for fools, 1855821589
+Or watch the things you gave your life to, broken, 15035758
+And stoop and build ’em up with worn-out tools: 2134270739
+If you can make one heap of all your winnings 1979513300
+And risk it on one turn of pitch-and-toss, 1856681489
+And lose, and start again at your beginnings 840668387
+And never breathe a word about your loss; 371319023
+If you can force your heart and nerve and sinew 1367703401
+To serve your turn long after they are gone, 998065228
+And so hold on when there is nothing in you 226618532
+Except the Will which says to them: ‘Hold on!’ 373650488
+If you can talk with crowds and keep your virtue, 1018484595
+Or walk with Kings-nor lose the common touch, 244550698
+If neither foes nor loving friends can hurt you, 2076844557
+If all men count with you, but none too much; 787510667
+If you can fill the unforgiving minute 881173767
+With sixty seconds’ worth of distance run, 193735733
+Yours is the Earth and everything that’s in it, 1751752389
+And-which is more-you’ll be a Man, my son! 1094393099
+Dandelions… 1249021292
+They flutter, now I see 636489521
+Fiery lions… 977612404
+They're dancing with me 296398685
+Sunlight… 293202321
+Come out and shine down 111935486
+Moonlight… 598925826
+Shun out my darkened frown 1588758274
+I am the infinitesimal stars in the tranquil, terrestrial night 1329826270
+I am the scars minutes before the sunlit dawn 1759585681
+You are extraordinary like the terrain in the sky of delight 2107869001
+Sweep away the darkest rays tonight and invite in cheery company of delightful, beautiful enlightenment, bright and zealous as a knights' might, but nevertheless, brought forth by His son 533180378
+Lord, before I was born, 1043058941
+You did marvelous miracles in disguise again and again 2080912402
+I’m a fire within, so torn 1161021784
+Due to stressed-out resentment and impure, untamed sin 160206133
+Tame my everlasting fires of wild desires… 944920607
+They’re insane without a good name, a dried-up grain 1217065621
+It tires me out, burns me out like wildfires 543210735
+That ignite in my once-mild brain, hard to truly attain… 442767029
+Terrified and petrified 1635952694
+By being with you 443224433
+I was horrified and cried, 1069770978
+Being around you too, 1605474756
+Darkness deep down, draining me so more or less 237655604
+With daunting, damaging distress, left me hopeless 334227544
+It drowns me drastically, 1142134240
+Way too complicated to merely express 97315762
+Freedom acted like captivity… 950952082
+Reality got confused with fantasy I guess 203578325
+Lord, You are my cure 513050223
+From these impure sins I commit everyday 1586291716
+Must say, I will endure 1421523211
+These waves of emotions and dangers today 1207495003
+Who knows, who really knows 1426883625
+Where the wicked wind blows 1198910439
+Who knows, I may never know 165209144
+Where the blessed breeze will blow 1376209718
+But, I know for sure…that, you know, 1394324969
+I will come to completely understand 255109898
+The sun above will glow and grow 1263581203
+Like dandy lions, bravery almost at hand 1873365149
+Who knows, who really knows 1333218282
+Where the wicked wind blows 1228183273
+Who knows, who will ever know 1560031706
+How the shows of faith shall show 1565335000
+In the eyes of a benevolent believer… 25986828
+Have faith, be not deceived 1473411219
+The future will return no longer a blur 766254093
+Sorry, I feel you, I grieved 1259113314
+The rain from clouds overhead 1604516350
+Will shower upon us pressure and dread 1682524832
+The gravity might leave us dead 2102330468
+But, He will see us through and cut off doubts' thread 1736166009
+He will give us gracious evergreen to roam in instead 563097631
+Wish I can be free, immediately 423205192
+The desert knows how I feel immensely 717423618
+The cloudy lake sparkles in bliss ecstasy 539410477
+I need to rejoice to reveal radiance to many 1595349378
+That, I will do and He'll make it happen gladly 2076682779
+The stars that twinkle, shooting triumphantly 651210801
+Wish I prayed more to be mega-motivated vigorously 2060375042
+Lord, You look after me… 842468131
+So grateful for Your watch that illuminates me most assuredly 1326555683
+Your very vigilant vitality 99513913
+Your quietude is my spiritual interlude that latches on to me 1685296955
+Shadows and reflections 2031769021
+Taunt and haunt me with several battles and afterwards, harsh rejections 1613809160
+There are some exceptions 1252441261
+I have been appreciated, accepted and loved with all kinds of affections 768539604
+You wander in my space of my embrace 1122329850
+You ponder what went wrong in the first place 1450145933
+It was all because of your rapidly difficult race, 397432717
+Needed to overcome, being last place in disgrace 650391523
+Your silhouette sweeps away the sorrow 306944191
+You motivate me to move on till tomorrow 344944010
+Fade away the hours spent on worrying and grief 585079117
+Dread drove me to bed, brought me a lack of relief 2117259347
+Entrenched in embarrassment, engrained in impulsive, inner-core glow 340192236
+Because that inner glow can be as precious and ebony as a plum; although, 1873292953
+I believe that positive affirmations and notion-inspired memories that flow 673394127
+Like a river of deliverance, reflecting radiant candlelight since forever ago 1711806732
+I adored you, but not as much as I did before 711212392
+You were my body, from outer layer to core 1728973050
+You rubbed my weary, hardened temples to paradise, genuine with no hidden lies 1169796869
+You felt me all over by your sensual gaze until we saw each others' beloved eyes 325435599
+We are dandelions… 751516082
+We are champions… 167935882
+In our own silent wars 351853911
+I need His cure for these scars.. 25350797
+I bear unbearably and terribly…. 852395899
+Tension-tainted passion, possibly, 2065343507
+Will disappear without a trace of horrendous fear 1297637053
+I cried myself to sleep, so I won’t let fall my tear 1253157647
+Vanish, oh anguish of awful scarce hope 134997846
+A change that is of childlike, clever cheer – 803759414
+I need that to draw near and to hold me dear 1717425442
+All of these hardships, I find hard to cope 375441856
+We are chickens, unchained from crowded factories 1356699751
+We are the feathers of a billion birds that flutter at ease 51034856
+Release me from the cell that I know of all-too-well 1279479985
+Dance with me, brave and bright lions, 228408267
+In this den of dandelions and daisies in which we dwell 359956370
+I find it swell that we remained champions 608221007
+Sway with me and stay with me for a while and might as well 1912844003
+Grow and glow like iridescent and elegant shine 739425040
+I often wish, wholeheartedly, you were mine 1980913760
+Oh, it wasn’t meant to be 364533501
+Unfortunately; however, maybe, 1510383228
+One day, I’ll come to see 667032284
+My soon-to-be love of sincerity 86748941
+Perhaps, she would totally uplift my mood 1614184549
+Uplift me when I feel madly misunderstood 1382208421
+Actually, it would be good to be understood 614424685
+Instead of being taken advantaged of, 55332903
+No, that’s no good…one day, my love 1680007348
+Will explore with me in the wondrous woods joyfully 1620544029
+And will share with me adoration in exuberant ecstasy 1652000950
+And, lastly, give me everlasting encouragement genuinely 1063954694
+That special day will come 1645142607
+When I will meet that someone 1381028434
+That will appreciate all of me 111502155
+For who I am and will be entirely 322762248
+Yes, I'm clearly not the only one 452463782
+Lonely without hardly anyone 976507166
+Except you, acceptance in my mind 1874420044
+While my heart is gravity-bound, weighed down, 938489477
+Once ascending and one-of-a-kind 1225889886
+My delicate smile will never, ever be an ugly frown 1003504193
+We will be as one sun with His son 970234996
+There's a great chance for everyone 111935807
+Maturity in me 417482480
+Will grow exceptionally 1369148834
+God will maneuver dreams to reality 1453608562
+No longer shall we be like lambs that rove aimlessly… 1488192090
+I am a dandy lion in my Father's garden that I fancy 1963565118
+Lazily lying with the sheep of weep-no-more 2067601580
+Reap remedies of relief from shore to shore 702704045
+According to God's plan for us, eventually in store 842915144
+So, drifting away will not be our problem anymore 1175460224
+Solutions soar….. 330504590
+Climb up the uplifting stairs, 2057931
+Leading to an open door 1058570020
+Of opportunities and possibilities with no worries or cares that were wretched barriers before 580732112
+broken down in order to have unlimited unity with our future freedom, flaring-up with fervor 1036805288
+flames, scorching aflame more and more with splendid satisfaction, like airborne clouds 2048130372
+above, unleashing passionately bespangled rain that will perpetually pour – have no fear, my 1593398207
+dear, for our faithfulness flourishes forevermore 1215151266
+I am the strength-thriving dandy lion, brazen-sent, 133493169
+Brutally resilient and never bewildered and oblivious 2031588499
+Someday, I’ll be more courageous and magnificent 202441640
+I won’t end up as a scorpion, vicious and temerarious 128244917
+I am dynamic, floating dandelion, ruthless on the contrary 431150287
+Caught in the wicked wind of wonders of prosperous significance 1354873637
+I could be brutal if threatened, but oh so bold, I must admit 1730801628
+Behold, I am incredibly legitimate with a bit of vivacious wit 867411908
