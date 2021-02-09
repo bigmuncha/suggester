@@ -4,6 +4,14 @@ import subprocess
 import time
 import sys
 
+
+#тест для suggestera
+#создаю N число дочерних процессов и коннект к серверу
+#закидывание стандартных слов
+#вывод результата
+#ожидание детей
+
+
 workerlist =[]
 
 master = os.getpid()

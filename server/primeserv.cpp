@@ -1,5 +1,8 @@
 #include "primeserv.h"
 
+//конструктор без параметров
+//высчитывает колличество строк в исходном файле
+//вызывает стандартный конструктор кэша, ставит стандартный ttl
 PrimeServ::PrimeServ()
     :str_count(0),Cache(),TTL(10)
 {
@@ -21,7 +24,7 @@ PrimeServ::PrimeServ()
 
 }
 
-
+//тоже самое, но ttl и размер кэша устанавливает пользователь
 PrimeServ::PrimeServ(int cache_size,int ttl_size)
     :str_count(0),Cache(cache_size),TTL(ttl_size)
 {
@@ -43,6 +46,10 @@ PrimeServ::PrimeServ(int cache_size,int ttl_size)
 }
 
 
+/*
+** новая воркер функция,рабоает так же как
+** у родительского сервера, но возвращает другую строку
+ */
 void PrimeServ::newWorker(){
     std::ifstream file;
     file.open("../stringset/data.txt");
@@ -83,6 +90,15 @@ void PrimeServ::newWorker(){
     file.close();
 }
 
+
+/*
+** Функция обработки файла:
+** парсит файл(используются буст регексы)
+** по какой схеме возвращается ответ читать в how_it_work_ru.txt
+** используется временная мапа Store для упорядочения строк по конечной цифре
+** ответ возвращается в обратном порядке
+** после всех манипуляций если данных не было в кэше, они туда помещаются
+ */
 std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
 
     boost::regex re("^(.+)\\s(\\d+)$");
@@ -135,18 +151,23 @@ std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
     return result;
 }
 
+//функция старта по анологии с род. классом
 void PrimeServ::quickstart(int thread_count){
     this->start([this](){this->newWorker();},thread_count);
 }
 
+//запуск полной установки сборщика мусора
+//2 аргумент это время засыпания сборщика мусора в секундах
 void PrimeServ::run_cache_collector(){
-    Cache.run_collector(TTL, 2);
+    Cache.run_collector(TTL, collector_sleep_time);
 }
 
-
+// explicit
 void PrimeServ::setTTL(int sec){
     TTL = std::chrono::duration<int>{sec};
 }
+
+//explicit
 void PrimeServ::setMaxCacheSize(int sizer){
     Cache.setMaxCacheSize(sizer);
 }

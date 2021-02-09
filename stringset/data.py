@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 import random
 
+
+#обычный скрипт для заполнения конца строк числами
+#
 my_file = open("some.txt", "r")
 liststr = my_file.readlines()
 for i in range(0,len(liststr)):
