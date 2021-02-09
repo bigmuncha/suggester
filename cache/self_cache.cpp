@@ -63,3 +63,25 @@ int MyCache::erase(std::string key){
     Cache.erase(key);
     return 1;
 }
+
+void MyCache::garb_collector(std::chrono::duration<int> TTL){
+
+    auto temp = Cache.begin();
+    auto current =Cache.begin();
+    for(;current!=Cache.end();){
+        current++;
+        if( TTL < std::chrono::steady_clock::now()
+            - temp->second.first ){
+            Cache.erase(temp);
+            std::cout <<"Че то удалил\n";
+        }else{
+            std::cout << "niche ne ydalil\n";
+        }
+        temp = current;
+    }
+
+}
+
+void MyCache::setMaxCacheSize(int i){
+    max_cache_size = i;
+}

@@ -1,7 +1,7 @@
 #include "primeserv.h"
 
 PrimeServ::PrimeServ()
-    :str_count(0),Cache()
+    :str_count(0),Cache(),TTL(4)
 {
     std::ifstream file;
     file.open("../stringset/data.txt");
@@ -137,4 +137,24 @@ std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
 
 void PrimeServ::quickstart(int thread_count){
     this->start([this](){this->newWorker();},thread_count);
+}
+
+void PrimeServ::run_cache_collector(){
+    std::thread t([this](){
+        this->collector_func();
+    });
+    t.detach();
+}
+void PrimeServ::collector_func(){
+    using namespace std::chrono_literals;
+    for(;;){
+        Cache.garb_collector(TTL);
+    }
+    std::this_thread::sleep_for(2s);
+}
+void PrimeServ::setTTL(int sec){
+    TTL = std::chrono::duration<int>{sec};
+}
+void PrimeServ::setMaxCacheSize(int sizer){
+    Cache.setMaxCacheSize(sizer);
 }

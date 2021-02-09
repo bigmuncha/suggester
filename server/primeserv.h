@@ -21,7 +21,11 @@ class PrimeServ
         void quickstart(int thread_size = 5 /*thread_count*/);
         void newWorker();
         std::string resultStr(std::ifstream&,std::string);
-
+        void garbage_func();
+        void setTTL(int);
+        void setMaxCacheSize(int sizer);
+        void run_cache_collector();
+        void collector_func();
     private:
         MyCache Cache;
         int str_count;
