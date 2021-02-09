@@ -25,7 +25,6 @@ class PrimeServ
         void setTTL(int);
         void setMaxCacheSize(int sizer);
         void run_cache_collector();
-        void collector_func();
     private:
         MyCache Cache;
         int str_count;
