@@ -22,8 +22,8 @@ PrimeServ::PrimeServ()
 }
 
 
-PrimeServ::PrimeServ(int cache_size)
-    :str_count(0),Cache(cache_size)
+PrimeServ::PrimeServ(int cache_size,int ttl_size)
+    :str_count(0),Cache(cache_size),TTL(ttl_size)
 {
     std::ifstream file;
     file.open("../stringset/data.txt");
@@ -109,12 +109,13 @@ std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
         std::cout <<"Cache exist\n";
     }else{
         std::cout <<"Cannot find cache\n";
-        for(int i=0; i <str_count; i++){
+        for(int i=0,j=0; i <str_count || j > 10; i++){
             getline(file,buf,'\n');
             if(buf.substr(0,len) == real_request){
                 if(regex_match(buf,m,re)){
                     int number = std::stoi(m[2]);
                     Store[number] = m[1];
+                    j++;
                 }else{
                     std::cerr <<"NO matches\n";
                 }

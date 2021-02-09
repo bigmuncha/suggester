@@ -18,7 +18,7 @@ bool MyCache::find(std::string real_request){
 }
 
 std::string MyCache:: get(std::string real_request){
-    return Cache[real_request];
+    return Cache[real_request].second;
 }
 
 int MyCache::set(std::string key, std::string value){
@@ -35,14 +35,15 @@ int MyCache::set(std::string key, std::string value){
         auto iter_main = Cache.begin();
         while(tempcapacity >=max_cache_size){
             tempcapacity-=iter_main->first.capacity() +
-                iter_main->second.capacity();
+                iter_main->second.second.capacity();
             iter_main++;
             Cache.erase(iter_temp);
             iter_temp = iter_main;
         }
     }
 
-    Cache[key] = value;
+    Cache[key].second = value;
+    Cache[key].first = std::chrono::steady_clock::now();
     size_count = tempcapacity;
 
     return 1;
@@ -50,7 +51,15 @@ int MyCache::set(std::string key, std::string value){
 
 void MyCache::show_all(){
     for(auto&a:Cache){
-        std::cout << a.first <<" " << a.second <<"| ";
+        std::cout << a.first <<" " << a.second.second <<"| ";
     }
     std::cout <<std::endl;
+}
+
+int MyCache::erase(std::string key){
+    if(!find(key)){
+        return 0;
+    }
+    Cache.erase(key);
+    return 1;
 }

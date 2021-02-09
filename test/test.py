@@ -24,8 +24,8 @@ for i in range(0,k):
             code = subprocess.Popen(["netcat", "127.0.0.1","4000"],
                             stdin=subprocess.PIPE).stdin
             code.write(bytes(questlist1[i]  ,'ascii'))
-            if(i >5):
-                time.sleep(1)
+ #           if(i >5):
+#               time.sleep(1)
            # code.write(bytes(questlist2[i], 'ascii'))
             #code.write(bytes("\n",'ascii'))
             #time.sleep(1)
