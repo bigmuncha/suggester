@@ -16,7 +16,7 @@ class PrimeServ
     public:
         PrimeServ();
         PrimeServ(int/*add Cache size*/);
-        void quickstart();
+        void quickstart(int thread_size = 5 /*thread_count*/);
         void newWorker();
         std::string resultStr(std::ifstream&,std::string);
     private:

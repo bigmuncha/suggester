@@ -1,10 +1,8 @@
 #include "primeserv.h"
 
-
 PrimeServ::PrimeServ()
     :str_count(0),Cache()
 {
-
     std::ifstream file;
     file.open("../stringset/data.txt");
 
@@ -18,11 +16,11 @@ PrimeServ::PrimeServ()
         file.getline(temp, 1024, '\n');
         str_count++;
     }
-    //file.clear();
-    //file.seekg(0, file.beg);
     std::cout <<str_count << '\n';
     file.close();
+
 }
+
 
 PrimeServ::PrimeServ(int cache_size)
     :str_count(0),Cache(cache_size)
@@ -42,8 +40,8 @@ PrimeServ::PrimeServ(int cache_size)
     }
     std::cout <<str_count << '\n';
     file.close();
-
 }
+
 
 void PrimeServ::newWorker(){
 
@@ -131,6 +129,6 @@ std::string PrimeServ::resultStr(std::ifstream &file,std::string request){
     return result;
 }
 
-void PrimeServ::quickstart(){
-    this->start([this](){this->newWorker();});
+void PrimeServ::quickstart(int thread_count){
+    this->start([this](){this->newWorker();},thread_count);
 }

@@ -4,12 +4,12 @@ Server::Server(){
 
 }
 
-void Server::quickstart(){
-    this->start([this](){this->workerfunc();});
+void Server::quickstart(int thread_count){
+    this->start([this](){this->workerfunc();}, thread_count);
 }
-void Server::start(MyFunc const & myfunc){
+void Server::start(MyFunc const & myfunc,int thread_count){
 
-    for(int i=0;i < 5 ; i++){
+    for(int i=0;i < thread_count ; i++){
         pool_th.push_back(std::thread(
                               [this, myfunc]()
                               {
@@ -17,7 +17,7 @@ void Server::start(MyFunc const & myfunc){
                               }
                           ));
     }
-    for(int i=0;i < 5 ; i++){
+    for(int i=0;i < thread_count ; i++){
         pool_th[i].detach();
     }
 

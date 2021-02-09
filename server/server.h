@@ -19,9 +19,9 @@ class Server{
                 typedef std::function<void ()> MyFunc;
                 Server();
                 void workerfunc();
-                void quickstart();
+                 virtual void quickstart(int thread_count = 5/*thread_count*/);
                 void accept();
-                void start(MyFunc const&);
+                void start(MyFunc const&, int/*thread_count*/);
 
         protected:
                 std::condition_variable g_signal;
